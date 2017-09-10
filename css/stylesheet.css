@@ -58,7 +58,7 @@ canvas{
 #text{
 	position: absolute;
 	text-align: center;
-	top: 30%;
+	top: 25%;
 	width: 100%;
 }
 
@@ -73,10 +73,64 @@ h1 {
 }
 
 img {
-	height: 10vmin;
-	width: 10vmin;
+	height: 15vmin;
+	width: 15vmin;
+	transform: rotateZ(0deg);
+	transition: transform 1s;
+}
+
+img:hover {
+	transform: rotateZ(360deg);
+	cursor: pointer;
+}
+
+img:active {
+	animation: flyout 1s;
+}
+
+em {
+	color: black;
+	text-decoration: none;
+}
+
+span {
+	display: block;
+}
+
+#en {
+	animation: flipen 10s infinite;
+}
+
+#mid {
+	animation: flipmid 10s infinite;
+	margin-top: -1.5vmin;
 }
 
 #ja {
-	display: none;
+	animation: flipja 10s infinite;
+}
+
+@keyframes flipen {
+		0% {transform: rotateX(0deg);}
+		85% {transform: rotateX(0deg);}
+		95% {transform: rotateX(360deg);}
+		100% {transform: rotateX(360deg);}
+}
+
+@keyframes flipmid {
+		0% {transform: rotateX(0deg);}
+		87% {transform: rotateX(0deg);}
+		97% {transform: rotateX(360deg);}
+		100% {transform: rotateX(360deg);}
+}
+
+@keyframes flipja {
+		0% {transform: rotateX(0deg);}
+		90% {transform: rotateX(0deg);}
+		100% {transform: rotateX(360deg);}
+}
+
+@keyframes flyout {
+	from {transform: translateX(0vw);}
+	to {transform: rotateX(200vw);}
 }
