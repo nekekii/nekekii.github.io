@@ -77,6 +77,8 @@ img {
 	width: 15vmin;
 	transform: rotateZ(0deg);
 	transition: transform 1s;
+	margin-left: 5vmin;
+	margin-right: 5vmin;
 }
 
 img:hover {
