@@ -12,8 +12,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#0a1428",
+    "background_color": "#0a1428",
     "start_url": "http://nekeki.com",
     "display": "standalone",
     "orientation": "portrait"
