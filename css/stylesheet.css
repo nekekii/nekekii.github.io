@@ -72,7 +72,7 @@ h1 {
 	color: white;
 }
 
-img {
+#sc {
 	height: 15vmin;
 	width: 15vmin;
 	transform: rotateZ(0deg);
@@ -81,13 +81,37 @@ img {
 	margin-right: 5vmin;
 }
 
-img:hover {
+#sc:hover {
 	transform: rotateZ(360deg);
 	cursor: pointer;
 }
 
-img:active {
-	animation: flyout 1s;
+#gh {
+	height: 15vmin;
+	width: 15vmin;
+	transform: rotateZ(0deg);
+	transition: transform 1s;
+	margin-left: 5vmin;
+	margin-right: 5vmin;
+}
+
+#gh:hover {
+	transform: rotateZ(360deg);
+	cursor: pointer;
+}
+
+#steam {
+	height: 15vmin;
+	width: 15vmin;
+	transform: rotateZ(0deg);
+	transition: transform 1s;
+	margin-left: 5vmin;
+	margin-right: 5vmin;
+}
+
+#steam:hover {
+	transform: rotateZ(360deg);
+	cursor: pointer;
 }
 
 em {
@@ -105,7 +129,8 @@ span {
 
 #mid {
 	animation: flipmid 10s infinite;
-	margin-top: -1.5vmin;
+	height: 10vh;
+	width: 10vh;
 }
 
 #ja {
