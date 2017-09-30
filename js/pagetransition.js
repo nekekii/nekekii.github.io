@@ -1,5 +1,6 @@
 $(document).ready(function(){
     console.log("Welcome to my JS, brave traveler.")
+    console.log("Don't ask.")
     $("#social").html('<img src="images/steam.png" id="steam"><img src="images/snapchat.png" id="sc"><img src="images/github.png" id="gh">"');
     $("#text").css("top", "-100vh");
     $("#text").animate({top: '25vh'}, 1000);
