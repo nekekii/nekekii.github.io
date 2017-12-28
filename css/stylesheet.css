@@ -47,7 +47,7 @@ canvas{
   width: 100%;
   height: 100%;
 	opacity: 50%;
-  background-color: #0a1428;
+  background-color: #fff;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -69,7 +69,7 @@ canvas{
 h1 {
 	font-family: "Fira Sans", "Fira", sans-serif;
 	font-size: 10vh;
-	color: white;
+	color: #000;
 }
 
 #sc {
@@ -82,6 +82,20 @@ h1 {
 }
 
 #sc:hover {
+	transform: rotateZ(360deg);
+	cursor: pointer;
+}
+
+#tw {
+	height: 15vmin;
+	width: 15vmin;
+	transform: rotateZ(0deg);
+	transition: transform 1s;
+	margin-left: 5vmin;
+	margin-right: 5vmin;
+}
+
+#tw:hover {
 	transform: rotateZ(360deg);
 	cursor: pointer;
 }
