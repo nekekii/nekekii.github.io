@@ -1,0 +1,17 @@
+#spamclick {
+  transform: translate(45vw, 45vh);
+  width: 10vw;
+  background-color: #fd81ad;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#clicked {
+  transform: translate(45vw, 45vh);
+  width: 10vw;
+  background-color: aqua;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
