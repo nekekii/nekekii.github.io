@@ -1,17 +1,62 @@
-#spamclick {
-  transform: translate(45vw, 45vh);
-  width: 10vw;
+html {
   background-color: #fd81ad;
-  text-align: center;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
 }
 
-#clicked {
-  transform: translate(45vw, 45vh);
-  width: 10vw;
-  background-color: aqua;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fd81ad;
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fd81ad;
+}
+
+#toclick {
+  font-family: "Fira Sans", Verdana, sans-serif;
+  color: white;
+  height: 70%;
+  width: 100%;
+  padding-top: 30vh;
   text-align: center;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  background-color: #fd81ad;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rainbow {
+  animation-name: rainbowscroll;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbowscroll {
+0%   {color: red;}
+17%  {color: orange;}
+34%  {color: yellow;}
+51%  {color: lime;}
+68%  {color: aqua;}
+85%  {color: purple;}
+100% {color: red;}
 }
