@@ -51,6 +51,7 @@ function earlyText() {
 
 function runningText() {
   if (stage !== 2) {
+    refreshVideo();
     $( "#starttext" ).html( "<p>To start watching and sync the movie with everyone else, <span class=\"rainbow\"><h2>double click</h2></span> in the center of the page.</p>" );
     stage = 2;
   }
