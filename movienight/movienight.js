@@ -11,7 +11,7 @@ var stale = 0;
 var maxstale = 7;
 
 function checkLoop() {
-  console.log("looooop");
+  //console.log("looooop");
   currentdate = new Date();
   if (movieend < moviestart) {
     alert("Error configuring timing")
@@ -42,7 +42,10 @@ function earlyText() {
     $( "#starttext" ).html( "<p>You're heckin\' early! The movie will start in <span id=\"countodwn\" class=\"rainbow\"></span> seconds! That's at " + moviestartdate.toString() + ".</p>");
     stage = 1;
   }
-  console.log(timeleft);
+  if(timeleft.toString() == 3) {
+    refreshVideo();
+  }
+  //console.log(timeleft);
   $( "#countodwn" ).html(timeleft.toString());
 }
 
@@ -58,11 +61,11 @@ function runningText() {
         refreshVideo();
         stale ++;
       } else {
-        console.log("video refresh refused - client stale")
+        //console.log("video refresh refused - client stale")
       }
     } else {
       counter ++;
-      console.log("Counter: " + counter);
+      //console.log("Counter: " + counter);
     }
   }
 }
@@ -70,7 +73,7 @@ function runningText() {
 function refreshVideo() {
   currentdate = new Date();
   var timeinto = Math.floor((currentdate.getTime() - moviestart) / 1000);
-  console.log("Updating -- Time Into Movie " + timeinto.toString());
+  //console.log("Updating -- Time Into Movie " + timeinto.toString());
   $( "#videoframe" ).html( "<div id=\"videoframe\"><iframe src=\"https://drive.google.com/file/d/" + movieid + "/preview?t=" + timeinto.toString() + "\"></iframe>" )
 }
 
