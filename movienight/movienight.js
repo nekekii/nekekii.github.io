@@ -1,7 +1,7 @@
 var moviename = "The Martian";
 var movieid = "0Bw5xNRsU0ngbNHVHU2J3LU11VGc";
-var moviestart = 1569949200000; //2019 08 31 6pm UK 1569949200000
-var movieend = 1569957720000; //2 hours 22 minutes 1569957720000
+var moviestart = 1567270800000; //2019 08 31 6pm UK 1567270800000
+var movieend = 1567279320000; //2 hours 22 minutes 1569957720000
 var tid;
 var currentdate;
 var stage = 0;
