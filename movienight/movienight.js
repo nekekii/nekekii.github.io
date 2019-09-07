@@ -1,7 +1,7 @@
-var moviename = "The Martian";
-var movieid = "0Bw5xNRsU0ngbNHVHU2J3LU11VGc";
-var moviestart = 1567270800000; //2019 08 31 6pm UK 1567270800000
-var movieend = 1567279320000; //2 hours 22 minutes 1569957720000
+var moviename = "Kingsman: The Secret Service";
+var movieid = "1EivbLNnbYvd77qemleEyaMojjWbPjvqP";
+var moviestart = 1567875600000; //2019 08 31 6pm UK 1567270800000
+var movieend = 1567883340000; //2 hours 22 minutes 1569957720000
 var tid;
 var currentdate;
 var stage = 0;
