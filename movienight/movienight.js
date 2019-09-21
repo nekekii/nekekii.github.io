@@ -1,7 +1,7 @@
-var moviename = "Flushed Away";
-var movieid = "1ukbPmMKxxMn-KluHnVAtr7I2LJmvm_iS";
-var moviestart = 1568480400000; //2019 09 14 6pm UK 1568480400000
-var movieend = 1568485560000; //1 hour 26 minutes 1568485560000
+var moviename = "Aladdin (the new one)";
+var movieid = "1h852dGcZDdaRtalsngeZblNraIaXklrd";
+var moviestart = 1569085200000; //2019 09 21 6pm UK 1569085200000
+var movieend = 1569092895000; //2 hours 8 minutes 15 seconds 1569092895000
 var tid;
 var currentdate;
 var stage = 0;
