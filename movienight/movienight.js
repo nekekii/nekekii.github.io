@@ -1,7 +1,7 @@
-var moviename = "Frozen ❄️❄️❄️ ^-^ sorry the quality is not that good, but I love this movie so much so I just had to watch it";
-var movieid = "0Bx5u_7NV1DzZcnU4RFRmdW9iMkU";
-var moviestart = 1569690000000; //2019 09 28 6pm UK 1569690000000
-var movieend = 1569696060000; //1 hour 41 minutes 1569696060000
+var moviename = "Sully (PG-13!!!)";
+var movieid = "0B2rUny-94xHQaEw3YTZ1Q3pvSmM";
+var moviestart = 1570294800000; //2019 10 05 6pm UK 1570294800000
+var movieend = 1570300560000; //1 hour 36 minutes 1570300560000
 var tid;
 var currentdate;
 var stage = 0;
