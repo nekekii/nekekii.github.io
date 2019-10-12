@@ -1,7 +1,7 @@
-var moviename = "Sully (PG-13!!!)";
-var movieid = "0B2rUny-94xHQaEw3YTZ1Q3pvSmM";
-var moviestart = 1570294800000; //2019 10 05 6pm UK 1570294800000
-var movieend = 1570300560000; //1 hour 36 minutes 1570300560000
+var moviename = "The Secret World of Arrietty";
+var movieid = "0B59gfGnVa_i-WGp5YVV1WUIxeWc";
+var moviestart = 1570899600000; //2019 10 12 6pm UK 1570899600000
+var movieend = 1570905255000; //1 hour 34 minutes 15 seconds 1570905255000
 var tid;
 var currentdate;
 var stage = 0;
