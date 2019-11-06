@@ -1,7 +1,7 @@
-var moviename = "Casper (1995)";
-var movieid = "0B8p0GCpA-OrwMF8tano3S0ZwRFU";
-var moviestart = 1572717600000; //2019 11 2 6pm UK 1572717600000
-var movieend = 1572723360000; //1 hour 36 minutes 1572723360000
+var moviename = "Minions (2015)";
+var movieid = "0B_yg8DMBLaiXZ1h1bW1FZ2tZWUE";
+var moviestart = 1573322400000; //2019 11 9 6pm UK 1573322400000
+var movieend = 1573327860000; //1 hour 31 minutes 1573327860000
 var tid;
 var currentdate;
 var stage = 0;
