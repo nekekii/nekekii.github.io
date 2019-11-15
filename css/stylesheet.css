@@ -60,6 +60,7 @@ canvas{
 	text-align: center;
 	top: 25%;
 	width: 100%;
+	z-index: 1;
 }
 
 #social {
