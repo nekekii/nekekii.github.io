@@ -1,7 +1,7 @@
-var moviename = "Rogue One (2016)";
-var movieid = "0B3PFBNKxhNVZM1lDQ0g5SlJOOW8";
-var moviestart = 1573927200000; //2019 11 16 6pm UK 1573927200000
-var movieend = 1573935240000; //2 hours 14 minutes 1573935240000
+var moviename = "Ocean's Eight (2018)";
+var movieid = "1BFQ2xg8IOfBfneOJlKZb0MYEi0GU46pM";
+var moviestart = 1574532000000; //2019 11 23 6pm UK 1574532000000
+var movieend = 1574536515000; //1 hour 15 minutes 15 seconds 1574536515000
 var tid;
 var currentdate;
 var stage = 0;
