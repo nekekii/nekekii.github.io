@@ -1,7 +1,7 @@
 var moviename = "Ocean's Eight (2018)";
 var movieid = "1BFQ2xg8IOfBfneOJlKZb0MYEi0GU46pM";
 var moviestart = 1574532000000; //2019 11 23 6pm UK 1574532000000
-var movieend = 1574539200000; //2 hours 15 minutes 15 seconds 1574536515000
+var movieend = 1574538660000; //1 hour 51 minutes 1574538660000
 var tid;
 var currentdate;
 var stage = 0;
