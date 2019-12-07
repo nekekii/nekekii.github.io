@@ -51,35 +51,28 @@ function earlyText() {
 }
 
 function runningText() {
-  if(service == "drive") {
-    if (stage !== 2) {
-      refreshVideo();
-      $( "#starttext" ).html( "<p>To start watching and sync the movie with everyone else, <h2><span class=\"rainbow\">double click</span></h2> in the center of the page.</p>" );
-      stage = 2;
-    } else if(watching == false) {
-      if(counter > 2) {
-        counter = 0;
-        if(stale <= maxstale) {
-          refreshVideo();
-          stale ++;
-        } else {
-          //console.log("video refresh refused - client stale")
-        }
+
+  if (stage !== 2) {
+    refreshVideo();
+    $( "#starttext" ).html( "<p>To start watching and sync the movie with everyone else, <h2><span class=\"rainbow\">double click</span></h2> in the center of the page.</p>" );
+    stage = 2;
+  }
+
+  if(watching == false) {
+
+    if(counter > 2) {
+      counter = 0;
+      if(stale <= maxstale) {
+        refreshVideo();
+        stale ++;
       } else {
-        counter ++;
-        //console.log("Counter: " + counter);
+        //console.log("video refresh refused - client stale")
       }
+    } else {
+      counter ++;
+      //console.log("Counter: " + counter);
     }
-  } else if(service == "youtube") {
-    if(watching == false) {
-      $( "#starttext" ).html( "<p><h2><span class=\"rainbow\">Loading...</span></h2> Been loading a while? Try and make sure Javascript is enabled and refresh.</p>" );
-      refreshVideo();
-      stage = 2;
-      watching = true;
-      $( "#toclick" ).html( "" ).css( "z-index", "-1");
-    }
-  } else {
-    alert("Error configuring service!");
+
   }
 
 }
@@ -91,8 +84,10 @@ function refreshVideo() {
   if(service == "drive") {
     $( "#videoframe" ).html( "<div id=\"videoframe\"><iframe src=\"https://drive.google.com/file/d/" + movieid + "/preview?t=" + timeinto.toString() + "\"></iframe>" )
   } else if(service == "youtube") {
-    $( "#videoframe" ).html( "<div id=\"videoframe\"><iframe src=\"https://youtube.com/embed/" + movieid + "?autoplay=true&start=" + timeinto.toString() + "\"></iframe>" )
-  }
+    $( "#videoframe" ).html( "<div id=\"videoframe\"><iframe src=\"https://youtube.com/embed/" + movieid + "?start=" + timeinto.toString() + "\"></iframe>" )
+  } else (
+    alert("Error configuring service, please contact nekeki.")
+  )
 }
 
 
@@ -104,15 +99,13 @@ $(document).ready(function(){
 
 
   $( "#toclick" ).click(function() {
-    if(service == "drive") {
-      if (stage == 2) {
-        if(stale >= maxstale) {
-          console.log("refreshing video cause stale");
-          refreshVideo();
-        }
-        watching = true;
-        $( "#toclick" ).html( "" ).css( "z-index", "-1");
+    if (stage == 2) {
+      if(stale >= maxstale) {
+        console.log("refreshing video cause stale");
+        refreshVideo();
       }
-    }
+      watching = true;
+      $( "#toclick" ).html( "" ).css( "z-index", "-1");
+      }
   });
 });
