@@ -1,7 +1,7 @@
 var moviename = "Bob Ross - One Hour Special - The Grandeur of Summer"; //Name of Video
 var movieid = "mT0RNrTDHkI"; //Video ID
-var moviestart = 1575735300000; //UTC Start Time
-var movieend = 1575736200000; //UTC End Time
+var moviestart = 1575741600000; //UTC Start Time
+var movieend = 1575745200000; //UTC End Time
 var service = "youtube"  //Currently compatible: drive, youtube
 var tid;
 var currentdate;
