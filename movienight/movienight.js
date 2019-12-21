@@ -1,4 +1,4 @@
-var moviename = "Bob Ross - One Hour Special - The Grandeur of Summer"; //Name of Video
+var moviename = "The Grinch 2018"; //Name of Video
 var movieid = "1suYugiCaZjLJAn4LZoypUG81r05D1kIJ"; //Video ID
 var moviestart = 1576951200000; //UTC Start Time
 var movieend = 1576956600000; //UTC End Time
