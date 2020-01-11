@@ -1,7 +1,7 @@
-var moviename = "Up (2009)"; //Name of Video
-var movieid = "0B44w3QY5F3-8c1RYd3hXSWdTdjg"; //Video ID
-var moviestart = 1578161100000 ; //UTC Start Time
-var movieend = 1578166875000; //UTC End Time
+var moviename = "How to Train Your Dragon 2 (2014)"; //Name of Video
+var movieid = "0B1UrG0XLiALaQXNETzR3dnJfWU0"; //Video ID
+var moviestart = 1578765600000; //UTC Start Time
+var movieend = 1578771720000; //UTC End Time
 var service = "drive"  //Currently compatible: drive, youtube
 var tid;
 var currentdate;
