@@ -1,7 +1,7 @@
-var moviename = "WarGames (1983)"; //Name of Video
-var movieid = "0BxMdfNCRhL8hQndRVThPd2FiUzQ"; //Video ID
-var moviestart = 1579975200000; //UTC Start Time
-var movieend = 1579981980000; //UTC End Time
+var moviename = "Guardians of the Galaxy (2014)"; //Name of Video
+var movieid = "1Ehav2gPirio7YN3mjKRiyS61yJ9ylyxu"; //Video ID
+var moviestart = 1580580000000; //UTC Start Time
+var movieend = 1580587260000; //UTC End Time
 var service = "drive"  //Currently compatible: drive, youtube
 var tid;
 var currentdate;
