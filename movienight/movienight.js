@@ -1,7 +1,7 @@
-var moviename = "Guardians of the Galaxy (2014)"; //Name of Video
-var movieid = "1Ehav2gPirio7YN3mjKRiyS61yJ9ylyxu"; //Video ID
-var moviestart = 1580580000000; //UTC Start Time
-var movieend = 1580587260000; //UTC End Time
+var moviename = "Nausicaä of the Valley of the Wind (1984)"; //Name of Video
+var movieid = "0B59gfGnVa_i-SkZVNDBrRlBITFE"; //Video ID
+var moviestart = 1581184800000; //UTC Start Time
+var movieend = 1581191835000; //UTC End Time
 var service = "drive"  //Currently compatible: drive, youtube
 var tid;
 var currentdate;
