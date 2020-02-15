@@ -1,7 +1,7 @@
-var moviename = "Nausicaä of the Valley of the Wind (1984)"; //Name of Video
-var movieid = "0B59gfGnVa_i-SkZVNDBrRlBITFE"; //Video ID
-var moviestart = 1581184800000; //UTC Start Time
-var movieend = 1581191835000; //UTC End Time
+var moviename = "Pom Poko (1994)"; //Name of Video
+var movieid = "0B3Q2lNwJtxcCWkFWQUJOWkhyR00"; //Video ID
+var moviestart = 1581789600000; //UTC Start Time
+var movieend = 1581796800000; //UTC End Time
 var service = "drive"  //Currently compatible: drive, youtube
 var tid;
 var currentdate;
