@@ -1,7 +1,7 @@
-var moviename = "Pom Poko (1994)"; //Name of Video
-var movieid = "0B-CbDMQ7tqTlellST1FaRTZ4M28"; //Video ID
-var moviestart = 1581789600000; //UTC Start Time
-var movieend = 1581796800000; //UTC End Time
+var moviename = "Bolt (2008)"; //Name of Video
+var movieid = "0B1UUN-vDx60mT2NReWRHQ2tQUzQ"; //Video ID
+var moviestart = 1582394400000; //UTC Start Time
+var movieend = 1582400186000; //UTC End Time
 var service = "drive"  //Currently compatible: drive, youtube
 var tid;
 var currentdate;
@@ -82,7 +82,7 @@ function refreshVideo() {
   var timeinto = Math.floor((currentdate.getTime() - moviestart) / 1000);
   //console.log("Updating -- Time Into Movie " + timeinto.toString());
   if(service == "drive") {
-    $( "#videoframe" ).html( "<div id=\"videoframe\"><iframe src=\"https://drive.google.com/file/d/" + movieid + "/preview?t=" + timeinto.toString() + "\"></iframe>" )
+    $( "#videoframe" ).html( "<div id=\"videoframe\"><iframe src=\"https://drive.google.com/file/d/" + movieid + "/preview?t=" + timeinto.toString() + "&cc_load_policy=0\"></iframe>" )
   } else if(service == "youtube") {
     $( "#videoframe" ).html( "<div id=\"videoframe\"><iframe src=\"https://youtube.com/embed/" + movieid + "?start=" + timeinto.toString() + "\"></iframe>" )
   } else (
