@@ -1,8 +1,8 @@
-var moviename = "Frozen (2013)"; //Name of Video
-var movieid = "1WpmIsKTNFI08WZ2Wk442p9L33p5WI0i0"; //Video ID
-var moviestart = 1584813600000; //UTC Start Time
-var movieend = 1584819750000; //UTC End Time
-var service = "drive"  //Currently compatible: drive, youtube
+var moviename = "Kitchen Nightmares - Amy's"; //Name of Video
+var movieid = "u4tgLtwLjQ0"; //Video ID
+var moviestart = 1587229200000; //UTC Start Time
+var movieend = 1587231825000; //UTC End Time
+var service = "youtube"  //Currently compatible: drive, youtube
 var tid;
 var currentdate;
 var stage = 0;
