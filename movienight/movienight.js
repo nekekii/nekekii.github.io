@@ -1,7 +1,7 @@
-var moviename = "Kitchen Nightmares - Amy's"; //Name of Video
-var movieid = "u4tgLtwLjQ0"; //Video ID
-var moviestart = 1587229200000; //UTC Start Time
-var movieend = 1587231825000; //UTC End Time
+var moviename = "Kitchen Nightmares - Guy who's pizza isn't so great"; //Name of Video
+var movieid = "yAZDwsnQ8tg"; //Video ID
+var moviestart = 1587230400000; //UTC Start Time
+var movieend = 1587233025000; //UTC End Time
 var service = "youtube"  //Currently compatible: drive, youtube
 var tid;
 var currentdate;
