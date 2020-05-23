@@ -1,8 +1,8 @@
-var moviename = "Matilda (1996)"; //Name of Video
-var movieid = "WfoTIvqbSyQ"; //Video ID
-var moviestart = 1589648400000; //UTC Start Time
-var movieend = 1589654295000; //UTC End Time
-var service = "youtube"  //Currently compatible: drive, youtube
+var moviename = "The Maze Runner"; //Name of Video
+var movieid = "1_Yjd7B2Mi7tMeMI0S7hvMJeuXkf5u3Co"; //Video ID
+var moviestart = 1590253200000; //UTC Start Time
+var movieend = 1590260025000; //UTC End Time
+var service = "drive"  //Currently compatible: drive, youtube
 var tid;
 var currentdate;
 var stage = 0;
