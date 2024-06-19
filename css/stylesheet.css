@@ -73,6 +73,11 @@ h1 {
 	color: #000;
 }
 
+p {
+	font-family: "Fira Sans", "Fira", sans-serif;
+	color: #000;
+}
+
 #sc {
 	height: 15vmin;
 	width: 15vmin;
